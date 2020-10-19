@@ -1,3 +1,7 @@
+html {
+    background-color: #f37500;
+    
+}
 body {
     margin:0;
     padding:0;
@@ -30,4 +34,11 @@ nav a {
 nav a:hover {
     background-color: rgb(255, 188, 100);
     color: #4a4a4f;
+}
+
+footer {
+    display: block;
+    float: center;
+    background-color: white;
+    
 }
