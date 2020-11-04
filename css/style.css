@@ -18,36 +18,37 @@ h3 {
     font-family: 'Satisfy', cursive;
 }
 
-nav ul {
-    font-family: 'Satisfy', cursive;
-    list-style: none;
-    background-color: #f37500;
-    text-align: center;
-    padding:0;
-    margin:0;
-    
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-nav li {
-    font-family: 'Satisfy', cursive;
-    font-size:1.5em;
-    line-height:40px;
-    height: 40px;
-    display: inline-block;
-    margin-left:2.5%;
-
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 0;
 }
 
-nav a {
-    font-family: 'Satisfy', cursive;
-    text-decoration: none;
-    color: #fff;
-    display: block;
+
+.navbar .navbar-toggler {
+    border: 0;
 }
 
-nav a:hover {
-    background-color: rgb(255, 188, 100);
-    color: #4a4a4f;
+.navbar .navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    color:rgb(255, 140, 0);
+}
+
+.navbar .navbar-nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color:rgb(255, 140, 0);
 }
 
 
