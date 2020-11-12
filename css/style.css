@@ -5,13 +5,7 @@ body {
 }
 
 h1 {
-    font-family: 'Satisfy', cursive;
     text-align: center;
-    background-color: white;
-}
-
-h2 {
-    font-family: 'Satisfy', cursive;
 }
 
 h3 {
@@ -20,7 +14,8 @@ h3 {
 
 .callout-container {
     height: 100vh;
-    background:url(https://d2f0ora2gkri0g.cloudfront.net/36/72/3672aac1-af02-4b74-8dc3-559134e80c7f.jpg) no-repeat center fixed;
+
+    background:url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/15202653_1850284181875307_6478279155535272950_n.jpg?_nc_cat=104&ccb=2&_nc_sid=e3f864&_nc_ohc=F9q1Migd57EAX-x5PSr&_nc_ht=scontent.fgse1-1.fna&oh=588de1cbc7ad441b80b430979dfdbf82&oe=5FD3D89B) no-repeat center fixed;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -40,11 +35,10 @@ h3 {
     width: 100%;
     background-color: rgba(0,0,0,0.5);
 }
-.container {
-    position: relative;
-    margin: 20px;
-    padding: 16px;
-    background-color: white;
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75;
 }
 
 .navalert-container {
@@ -54,6 +48,7 @@ h3 {
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
+    background-color: rgba(0, 0, 0, .25);
 }
 
 .navbar {
@@ -76,19 +71,57 @@ h3 {
 .navbar .navbar-nav a {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    color:rgb(255, 140, 0);
 }
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: white;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color:rgb(255, 140, 0);
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
 footer {
     display: block;
     float: center;
     background-color: white;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
 
 /* Create four equal columns that sits next to each other */
 .column {
@@ -103,6 +136,21 @@ footer {
   width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+    .callout-container {
+        background:url(https://d2f0ora2gkri0g.cloudfront.net/36/72/3672aac1-af02-4b74-8dc3-559134e80c7f.jpg) no-repeat center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+        background-size: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
