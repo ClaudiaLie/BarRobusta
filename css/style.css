@@ -95,6 +95,71 @@ h3 {
     color: #d0d0d0;
 }
 
+#ContactsHeader {
+    height: 60vh;
+
+    background:url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/95528712_2640309516206099_2319383705363152896_o.jpg?_nc_cat=102&ccb=2&_nc_sid=9267fe&_nc_ohc=E60Qw-4kLxcAX-84a0d&_nc_ht=scontent.fgse1-1.fna&oh=dbbc48f57fae46cdf1321dc3dd897802&oe=5FCE236D) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#EventsHeader {
+    height: 60vh;
+
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/107645365_2695740977329619_1514826394631113953_o.jpg?_nc_cat=103&ccb=2&_nc_sid=9267fe&_nc_ohc=jGdZa4zbW5cAX-SxQmB&_nc_ht=scontent.fgse1-1.fna&oh=7f1369229b05eeb9eef2efbd04d0a2c9&oe=5FCE325A)no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#MenuHeader {
+    height: 60vh;
+
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/121600010_2783776628526053_4873019285257759536_o.jpg?_nc_cat=103&_nc_sid=a26aad&_nc_ohc=dsljXtKRlfgAX8-gsvg&_nc_ht=scontent.fgse1-1.fna&oh=2608f5244d328aa53a2d9ecc2e3a84e4&oe=5FB4BA43)no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+#GalleryHeader {
+    height: 60vh;
+
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/31662193_2094876037416119_9156353684995571712_o.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=HjxXyfJhtHMAX8EIQ2B&_nc_ht=scontent.fgse1-1.fna&oh=5a3545fd7e43ee6b149033b8bda293f3&oe=5FD110EF)no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
 /* Block dividers */
 
 .block-divider {
@@ -142,17 +207,23 @@ footer {
     color: rgb(255, 140, 0);
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+/*Gallery ref:https://css-tricks.com/adaptive-photo-layout-with-flexbox/ */
+
+.gallery-unordered {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.gallery-list {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.img-gallery {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
 
 @media screen and (max-width: 800px) {
@@ -170,18 +241,32 @@ footer {
         position: relative;
     }
 }
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
+
+@media (max-aspect-ratio: 1/1) {
+  .gallery-list {
+    height: 30vh;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+
+@media (max-height: 480px) {
+  .gallery-list {
+    height: 80vh;
+  }
+}
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  .gallery-unordered {
+    flex-direction: row;
+  }
+
+  .gallery-list {
+    height: auto;
+    width: 100%;
+  }
+
+  .img-gallery {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
   }
 }
