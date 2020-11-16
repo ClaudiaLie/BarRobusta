@@ -130,7 +130,7 @@ h3 {
 #MenuHeader {
     height: 60vh;
 
-    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/121600010_2783776628526053_4873019285257759536_o.jpg?_nc_cat=103&_nc_sid=a26aad&_nc_ohc=dsljXtKRlfgAX8-gsvg&_nc_ht=scontent.fgse1-1.fna&oh=2608f5244d328aa53a2d9ecc2e3a84e4&oe=5FB4BA43)no-repeat center fixed;
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/121600010_2783776628526053_4873019285257759536_o.jpg?_nc_cat=103&_nc_sid=a26aad&_nc_ohc=dsljXtKRlfgAX8-gsvg&_nc_ht=scontent.fgse1-1.fna&oh=2608f5244d328aa53a2d9ecc2e3a84e4&oe=5FB4BA43)no-repeat bottom right fixed;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -147,7 +147,7 @@ h3 {
 #GalleryHeader {
     height: 60vh;
 
-    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/31662193_2094876037416119_9156353684995571712_o.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=HjxXyfJhtHMAX8EIQ2B&_nc_ht=scontent.fgse1-1.fna&oh=5a3545fd7e43ee6b149033b8bda293f3&oe=5FD110EF)no-repeat center fixed;
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/31662193_2094876037416119_9156353684995571712_o.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=HjxXyfJhtHMAX8EIQ2B&_nc_ht=scontent.fgse1-1.fna&oh=5a3545fd7e43ee6b149033b8bda293f3&oe=5FD110EF)no-repeat bottom left fixed;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -234,7 +234,7 @@ footer {
         -o-background-size:cover;
         background-size: center;
 
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
 

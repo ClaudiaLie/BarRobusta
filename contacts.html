@@ -32,6 +32,8 @@
         <div class="callout-container" id="ContactsHeader">
             <div class="opaque-overlay"> &nbsp;</div>
         </div>
+
+        <hr>
         
         <div class="container">
             <h3> Book here: </h3>
@@ -73,6 +75,14 @@
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                     <label class="form-check-label" for="inlineCheckbox3">Vegan </label>
                 </div>
+                <!-- Date picker ref:https://metroui.org.ua/calendarpicker.html -->
+                <div class="form-group"> 
+                    <br>
+                    <label for="calendarpick"> Select a date </label>
+                    <br>
+                    <input type="text" id="calendarpick" data-role="calendarpicker" value="21/12/2020" data-format="%d %b %Y" required>
+                    
+                </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1"> Additional Informations</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -80,6 +90,8 @@
                 <button type="button" class="btn btn-outline-success">Submit</button>
             </form>
         </div>
+
+        <hr>
     
         <footer>
             <img src="https://www.caffeguglielmo.it/images/headers/logo.png" alt="Caffe Guglielmo">
