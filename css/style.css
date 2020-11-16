@@ -130,7 +130,7 @@ h3 {
 #MenuHeader {
     height: 60vh;
 
-    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/121600010_2783776628526053_4873019285257759536_o.jpg?_nc_cat=103&_nc_sid=a26aad&_nc_ohc=dsljXtKRlfgAX8-gsvg&_nc_ht=scontent.fgse1-1.fna&oh=2608f5244d328aa53a2d9ecc2e3a84e4&oe=5FB4BA43)no-repeat bottom right fixed;
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/80783053_2517471575156561_7287040100796465152_o.jpg?_nc_cat=109&ccb=2&_nc_sid=9267fe&_nc_ohc=el0eiMCPRxIAX_tvgbK&_nc_ht=scontent.fgse1-1.fna&oh=b7b5194ad2574e335b2c7be59047194d&oe=5FDA3397)no-repeat center fixed;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -147,7 +147,7 @@ h3 {
 #GalleryHeader {
     height: 60vh;
 
-    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/31662193_2094876037416119_9156353684995571712_o.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=HjxXyfJhtHMAX8EIQ2B&_nc_ht=scontent.fgse1-1.fna&oh=5a3545fd7e43ee6b149033b8bda293f3&oe=5FD110EF)no-repeat bottom left fixed;
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t31.0-8/23157168_2011316182438772_6640184187014138568_o.jpg?_nc_cat=101&ccb=2&_nc_sid=9267fe&_nc_ohc=mJg962cW4E4AX8xy_pV&_nc_ht=scontent.fgse1-1.fna&oh=1c65bfaefc0155fc23c058bcccbfaea5&oe=5FD720EB)no-repeat bottom fixed;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -228,13 +228,13 @@ footer {
 
 @media screen and (max-width: 800px) {
     .callout-container {
-        background:url(https://d2f0ora2gkri0g.cloudfront.net/36/72/3672aac1-af02-4b74-8dc3-559134e80c7f.jpg) no-repeat center fixed;
+        background:url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/65749872_2376811332555920_4319354420954398720_o.jpg?_nc_cat=111&ccb=2&_nc_sid=9267fe&_nc_ohc=zvWs21NO9zsAX-mV2KM&_nc_ht=scontent.fgse1-1.fna&oh=8a47bf228eb1ce9d039c365ad5de1b71&oe=5FD70893) no-repeat center fixed;
         -webkit-background-size:cover;
         -moz-background-size: cover;
         -o-background-size:cover;
         background-size: center;
 
-        display: block;
+        display: flex;
         align-items: center;
         justify-content: center;
 
